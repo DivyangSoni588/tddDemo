@@ -35,7 +35,7 @@ class UserModel extends User {
   }
 
   DataMap toMap() => {
-        'id':id,
+        'id': id,
         'avatar': avatar,
         'createdAt': createdAt,
         'name': name,
