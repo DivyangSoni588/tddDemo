@@ -1,6 +1,6 @@
 # tddDemo
 
-A new Flutter project.
+A new Flutter project with bloc along with implementing the test driven development.
 
 ## Getting Started
 
