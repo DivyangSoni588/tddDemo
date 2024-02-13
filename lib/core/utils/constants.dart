@@ -1,0 +1,1 @@
+const kBaseUrl = 'https://65c30dbcf7e6ea59682be65c.mockapi.io';

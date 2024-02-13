@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:tdd_demo/core/errors/exceptions.dart';
 import 'package:tdd_demo/core/errors/failure.dart';
-import 'package:tdd_demo/src/authentication/data/dataSouces/authentication_remote_data_source.dart';
+import 'package:tdd_demo/src/authentication/data/dataSources/authentication_remote_data_source.dart';
 import 'package:tdd_demo/src/authentication/data/repositories/authentication_repository_implementation.dart';
 import 'package:tdd_demo/src/authentication/domain/entities/user.dart';
 

@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:tdd_demo/core/errors/exceptions.dart';
 import 'package:tdd_demo/core/errors/failure.dart';
 import 'package:tdd_demo/core/utils/typedef.dart';
-import 'package:tdd_demo/src/authentication/data/dataSouces/authentication_remote_data_source.dart';
+import 'package:tdd_demo/src/authentication/data/dataSources/authentication_remote_data_source.dart';
 import 'package:tdd_demo/src/authentication/domain/entities/user.dart';
 import 'package:tdd_demo/src/authentication/domain/repositories/authentication_repository.dart';
 
