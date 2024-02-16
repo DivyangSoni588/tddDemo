@@ -18,7 +18,7 @@ abstract class AuthenticationRemoteDataSource {
 }
 
 const kCreateUserEndpoint = '/users';
-const kGetUserEndpoint = '/user';
+const kGetUserEndpoint = '/users';
 
 class AuthenticationRemoteDataSourceImplementation
     implements AuthenticationRemoteDataSource {
