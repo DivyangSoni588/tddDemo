@@ -45,10 +45,12 @@ class _HomeScreenState extends State<HomeScreen> {
                               itemBuilder: (context, index) {
                                 final user = state.users[index];
                                 return ListTile(
-                                  leading: Image.network(user.avatar),
+                                  leading: Image.network(user.avatar,errorBuilder: (_,__,___){
+                                    return const SizedBox.shrink();
+                                  }),
                                   title: Text(user.name),
                                   subtitle: Text(
-                                    user.createdAt.substring(10),
+                                    user.createdAt,
                                   ),
                                 );
                               },
