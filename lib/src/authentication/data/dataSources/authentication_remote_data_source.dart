@@ -2,10 +2,9 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:tdd_demo/core/errors/exceptions.dart';
+import 'package:tdd_demo/core/utils/constants.dart';
 import 'package:tdd_demo/core/utils/typedef.dart';
 import 'package:tdd_demo/src/authentication/data/models/user_model.dart';
-
-import '../../../../core/utils/constants.dart';
 
 abstract class AuthenticationRemoteDataSource {
   Future<void> createUser({
